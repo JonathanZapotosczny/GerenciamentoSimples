@@ -22,7 +22,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 
 @RestController
-@RequestMapping(name = "/categorias")
+@RequestMapping("/categorias")
 @Tag(name = "Categorias")
 public class CategoriaResource {
     

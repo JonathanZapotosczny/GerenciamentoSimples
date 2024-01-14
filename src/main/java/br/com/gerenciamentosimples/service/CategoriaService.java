@@ -14,9 +14,8 @@ import br.com.gerenciamentosimples.repository.CategoriaRepository;
 @Service
 public class CategoriaService {
     
-    private CategoriaRepository categoriaRepository;
-
-    private ModelMapper modelMapper;
+    private final CategoriaRepository categoriaRepository;
+    private final ModelMapper modelMapper;
 
     public CategoriaService(CategoriaRepository categoriaRepository, ModelMapper modelMapper) {
         this.categoriaRepository = categoriaRepository;
